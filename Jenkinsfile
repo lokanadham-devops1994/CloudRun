@@ -4,7 +4,7 @@ pipeline {
     environment {
         PROJECT_ID = 'morning-batch-449809'  // GCP Project ID
         GOOGLE_APPLICATION_CREDENTIALS = credentials('gcp-service-account')  // Service account credentials
-        DOCKER_HUB_CREDENTIALS_USR = 'ls '  // Your Docker Hub username
+        DOCKER_HUB_CREDENTIALS_USR = 'lokanadham.mec1994@gmail.com '  // Your Docker Hub username
         IMAGE_NAME = 'cloudrun'  // Docker image name
         DOCKER_HUB_CREDENTIALS_PSWD = credentials('docker-hub-password')  // Docker Hub password credentials
     }
